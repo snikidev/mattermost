@@ -3,7 +3,6 @@ FROM alpine:3.10
 # Some ENV variables
 ENV PATH="/mattermost/bin:${PATH}"
 ENV MM_VERSION=8.0.1
-ENV MM_EMAILSETTINGS_FEEDBACKEMAIL="nikita@railyard.works"
 
 # Build argument to set Mattermost edition
 ARG edition=enterprise
